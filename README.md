@@ -1,2 +1,1 @@
-# DeepCNV
-DeepCNV: A Deep Learning Approach for Authenticating Copy Number Variants
+# DeepCNV: A Deep Learning Approach for Authenticating Copy Number Variants
