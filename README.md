@@ -10,8 +10,9 @@ We propose a deep learning approach to remove the false positive CNV calls from 
 3. Copy model file into script folder;
 4. Enter script folder from Terminal;
 5. Check the package requirments. Different package may generate different results;
-6. Run ```python run.py ./data/JPG ./data/samples.csv ./output ./DeepCNV.hdf5```;
-7. Check the results from output folder.
+6. Create output folder by ```mkdir output```;
+7. Run ```python run.py ./data/JPG ./data/samples.csv ./output ./DeepCNV.hdf5```;
+8. Check the results from output folder.
 
 ## Package Requirments
 Python  2.7.12  
