@@ -15,7 +15,7 @@ We propose a deep learning approach to remove the false positive CNV calls from 
 8. Check the results from output folder.
 
 ## Package Requirments
-Python  2.7.12  
+python  2.7.12  
 pandas  0.17.1  
 numpy  1.11.0  
 tensorflow  1.12.0  
