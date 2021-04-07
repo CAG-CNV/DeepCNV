@@ -2,7 +2,7 @@
 For any question about this repo, please contact Xiurui Hou (xh256@njit.edu).  
 
 ## Description
-We propose a deep learning approach to remove the false positive CNV calls from SNP array and sequencing CNV detection programs. This repo constains the model code and an executable script with five sample inputs. Since the pre-trained model file exceeds the upload size of Github, it can be accessed by this external [link](https://www.filehosting.org/file/details/886348/DeepCNV.hdf5). The dataset of this project is not for public. blended_learning.py is the training script. You can feed your own dataset to train the model using blended_learning.py.
+We propose a deep learning approach to remove the false positive CNV calls from SNP array and sequencing CNV detection programs. This repo constains the model code and an executable script with five sample inputs. Since the pre-trained model file exceeds the upload size of Github, it can be accessed by this external [link](https://www.filehosting.org/file/details/934325/DeepCNV.hdf5). The dataset of this project is not for public. blended_learning.py is the training script. You can feed your own dataset to train the model using blended_learning.py.
 
 ## Generate plot images for script
 ```perl visualize_cnv.pl -format plot -signal 200477520001_R06C01.baflrr 200477520001_R06C01.rawcnv```;  
@@ -13,7 +13,7 @@ Rawcnv input file is: chr:start-stop numsnp=1 length=1 state2,cn=1 200477520001_
 chr:start-stop and 200477520001_R06C01.baflrr are the only critical fields to be specified, making it easily adaptable to most CNV call output formats;  
 
 ## Run script
-1. Download the pre-trained model file from this [link](https://www.filehosting.org/file/details/886348/DeepCNV.hdf5);
+1. Download the pre-trained model file from this [link](https://www.filehosting.org/file/details/934325/DeepCNV.hdf5);
 2. Download script folder;
 3. Copy model file into script folder;
 4. Enter script folder from Terminal;
