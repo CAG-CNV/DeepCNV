@@ -14,7 +14,7 @@
     e.g.
     python blend.py data/JPG/ data/ metadata.csv train_sample.csv val_sample.csv res/bmodel.hdf5 res/res.csv
 
-    b. To make prediction with a pretrained model run "python blend.py img_folder metadata_folder metadata_file val_id_file saved_model_name results_file"
+    b. To make prediction with a pretrained model run "python blend_pred.py img_folder metadata_folder metadata_file val_id_file saved_model_name results_file"
     e.g.
     python blend_pred.py data/JPG/ data/ metadata.csv val_sample.csv best_model_0.hdf5 res/res.csv
 
