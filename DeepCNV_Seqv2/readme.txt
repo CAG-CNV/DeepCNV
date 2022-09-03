@@ -14,7 +14,7 @@
 2. To use the script to predict the images, follow the steps below:
     a. To train the model run "python train.py img_folder saved_model_name results_file"
     e.g.
-    python blend.py data/ res/model.hdf5 res/res.csv
+    python train.py data/ res/model.hdf5 res/res.csv
 
     b. To make prediction with a pretrained model run "python predict.py img_folder saved_model_name results_file"
     e.g.
