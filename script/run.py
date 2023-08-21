@@ -46,7 +46,7 @@ for f in fnames:
     x_meta = meta_df[meta_df.ID == f].iloc[:, 1:14].values[0]
     x_meta = np.expand_dims(x_meta, axis=0)
     x = [x_image, x_meta]
-    probability = model.predict(x)[0][0]
+    probability = model.predict(x[0])[0]
     prediction = 1 if probability >= 0.5 else 0
     prob.append(probability)
     pred.append(prediction)
